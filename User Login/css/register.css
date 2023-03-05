@@ -1,0 +1,43 @@
+body {
+  /* background:linear-gradient(to right,#4B79A1,#283E51); */
+  background: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration: none;
+  color:white
+}
+a:visited{
+  color:white
+}
+.form-group label {
+  display: none;
+  margin-bottom: 5px;
+}
+.card {
+  /* background:linear-gradient(to bottom right,#0f2027,#203a43,#2c5364); */
+  background: transparent;
+  color: black;
+  font-size: 13pt;
+  font-weight: 400;
+  margin: 8vh auto;
+  border: 1px solid white;
+}
+.card-header {
+  color: #fff;
+  border: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.input-group-text.mb-3 {
+  margin-bottom: 0 !important;
+}
+.card-body .form-group {
+  margin-top: 30px;
+}
+.btn.btn-dark {
+  display: block;
+  margin: 30px auto;
+  font-size: 13pt;
+  font-weight: 600;
+}

@@ -1,0 +1,70 @@
+body {
+  /* background:linear-gradient(to right,#4B79A1,#283E51); */
+  background:linear-gradient(to bottom right,#0f2027,#203a43,#2c5364); 
+  /* background: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.form-group label.ml{
+  /* display: none; */
+  /* margin-bottom: 5px; */
+  color:white;
+  margin-left: 20px;
+}
+label.header{
+  color: white;
+  font-weight: 600;
+}
+.card {
+  /* background:linear-gradient(to bottom right,#0f2027,#203a43,#2c5364); */
+  background-color: rgba(136, 123, 123, 0.2);
+  color: black;
+  font-size: 13pt;
+  font-weight: 400;
+  margin: 8vh auto;
+  border: 1px solid white;
+}
+.form-check {
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.form-check-label {
+  /* font-size: 13pt; */
+  color: #f0eded;
+}
+.text-component{
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.card-header {
+  color: #fff;
+  border: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.input-group-text.mb-3 {
+  margin-bottom: 0 !important;
+}
+.card-body .form-group {
+  margin-top: 30px;
+}
+.horiz-line{
+    border-top: 1px solid white;
+}
+.social-media-icon{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    padding: 2px;
+}
+.btn.btn-dark {
+  display: block;
+  margin: 2rem auto;
+  font-size: 13pt;
+  font-weight: 600;
+}
